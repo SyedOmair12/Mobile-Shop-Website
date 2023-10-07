@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head of the page-->
+<head>
+  <!-- other meta stuff-->
+  <link href="style/style.css" rel="stylesheet"/>
+  <meta charset="utf-8" />
+  <meta name="description" content="enquire page of Assignment" />
+  <meta name="keywords" content="HTML5, tags" />
+  <meta name="author" content="syed omair"  />
+  <title>Assignment-2</title>
+  </head>
+  
+  <body>
+  <form  id="paymentform" method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+  <input type= "submit" value="Check Out"/>
+	<input type= "reset" value="Cancle Order"/>	
+	
+	<fieldset><!-- fieldset -->
+	<!-- details about the customer -->
+	<legend> Payment Details</legend>
+	<p>
+	<label for="cardtype">Credit Card Type</label> 
+			<select name="Cardtype" id="cardtype" required="required">
+				<option value="">Please Select</option>			
+				<option value="visa">Visa</option>
+				<option value="Mastercard">Mastercard</option>
+				<option value="AmericanExpress">American Express</option>
+			</select></p>
+	<p>		
+	<label for="nameoncard">Name on credit card</label> 
+			<input type="text" name= "Nameoncard" id="nameoncard"  required="required"/></p>
+	</fieldset>
+	</form>
+  <footer>
+		<p>&#169; A N D company</p>
+		<p>Syed Omair</p>
+	</footer>
+	</body>
+	
+	</html>
